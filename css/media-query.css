@@ -1,0 +1,259 @@
+@media (max-width:768px) {
+
+    .welcome-info h1,
+    .services-title h2,
+    .portfolio-title h2,
+    .skills-title h2,
+    .testimonials-title h2,
+    .blog-title h2,
+    .get-in-title h2 {
+        font-size: 2rem;
+    }
+    .contact{
+        display: none;
+    }
+    /* ***************************NAVBAR ************************** */
+    .social-list {
+        display: none;
+    }
+
+    .email {
+        display: none;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+
+    .bars-menu {
+        display: block;
+    }
+
+    .fixed {
+        position: fixed;
+    }
+
+    .small .logo {
+        display: block;
+    }
+
+    .small {
+        width: 100%;
+        z-index: 11;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .small-nav-menu {
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        top: 0;
+        background-color: rgba(0, 0, 0, 0.863);
+        color: #fff;
+        z-index: 10;
+    }
+
+    .small-nav-menu ul {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .small-nav-menu ul li {
+        margin-bottom: 20px;
+    }
+
+    /* ***************************Hero************************** */
+    .welcome-info {
+        margin-top: 2rem;
+        margin-bottom: 2rem !important;
+        margin-left: 0 !important;
+        padding: 0 2rem;
+    }
+
+    .card {
+        height: 100%;
+        margin-left: 0 !important;
+    }
+
+    .card-container {
+        margin-bottom: 0;
+    }
+
+    .welcome-info::after {
+        display: none;
+    }
+
+    /*********************SERVICES SECTION******************* */
+    #allContent {
+        border-radius: 10px;
+    }
+
+    .navbar-row {
+        display: none;
+    }
+
+    .services-title {
+        padding-top: 3rem !important;
+    }
+
+    #services .navbar::after {
+        display: none;
+    }
+
+    /* ***************************SKILLS Section ************************ */
+    #skills .skills-title {
+        text-align: center;
+    }
+
+    /********************* Testimonials SECTION******************** */
+    .quote-slide {
+        display: none;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        top: 30px;
+    }
+
+    .carousel-control-prev span i,
+    .carousel-control-next span i {
+        font-size: 15px;
+        padding: 9px;
+    }
+
+    .quotes{
+        bottom: -140px;
+    }
+    .quotes i{
+        font-size: 8rem;
+    }
+    /************************** Best price SECTION******************** */
+    .plan-type {
+        left: 155px;
+    }
+
+    .plan-card .left,
+    .plan-card .right {
+        width: 20%;
+    }
+}
+
+/* ****************************************************************************************** */
+@media (min-width:769px) and (max-width:992px) {
+
+    .welcome-info h1,
+    .services-title h2,
+    .portfolio-title h2,
+    .skills-title h2,
+    .testimonials-title h2,
+    .blog-title h2,
+    .get-in-title h2 {
+        font-size: 2rem;
+    }
+
+    .welcome-info {
+        margin-bottom: 2rem !important;
+        margin-left: 0 !important;
+        padding: 0 2rem;
+    }
+
+    .card {
+        height: 100% !important;
+        margin-left: 0 !important;
+    }
+
+    .card-container {
+        margin-bottom: 0;
+    }
+
+    .welcome-info::after {
+        display: none;
+    }
+
+    .social-list-profile ul li a i {
+        padding: 0.5rem 0.5rem !important;
+    }
+
+    /**********************SERVICES SECTION********************* */
+    .navbar-row {
+        display: none;
+    }
+
+    #allContent {
+        border-radius: 10px;
+    }
+
+    .services-title {
+        padding-top: 3rem !important;
+    }
+
+    #services .navbar::after {
+        display: none;
+    }
+
+    /** ******************SKILLS Section *************************/
+    #skills .skills-title {
+        text-align: center;
+    }
+
+    /*************************** Testimonials SECTION******************** */
+    .quote-slide {
+        display: none;
+    }
+
+    .carousel-control-prev span i,
+    .carousel-control-next span i {
+        font-size: 15px;
+        padding: 9px;
+    }
+}
+
+/* ******************************************************************************************** */
+@media (min-width:993px) and (max-width:1199px) {
+    .card {
+        margin-left: 3rem;
+    }
+
+    .social-list-profile ul li a i {
+        padding: 0.5rem 0.5rem !important;
+    }
+
+    .welcome-info h1 {
+        font-size: 2.6rem;
+    }
+
+    .icon {
+        padding: 5px;
+    }
+
+    .icon:nth-of-type(1) {
+        top: 4rem;
+        left: 0;
+    }
+
+    .icon:nth-of-type(2) {
+        right: 0.5rem;
+        bottom: 18rem;
+    }
+
+    .icon:nth-of-type(3) {
+        bottom: 14rem;
+        left: 3.5rem;
+    }
+
+    /* ********************SERVICES *************************/
+    #services .navbar {
+        width: 55%;
+    }
+
+    /** ******************SKILLS Section *********************/
+    #skills .skills-title {
+        text-align: center;
+    }
+
+}
