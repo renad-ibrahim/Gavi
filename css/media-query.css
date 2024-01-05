@@ -12,12 +12,9 @@
     .contact{
         display: none;
     }
-    /* ***************************NAVBAR ************************** */
-    .social-list {
-        display: none;
-    }
 
-    .email {
+    /* ***************************NAVBAR ************************** */
+    .social-list  , .info{
         display: none;
     }
 
